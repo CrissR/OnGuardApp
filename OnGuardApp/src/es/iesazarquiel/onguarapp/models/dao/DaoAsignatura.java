@@ -11,7 +11,7 @@ import es.iesazarquiel.onguarapp.models.entidades.Asignatura;
 import es.iesazarquiel.onguarapp.models.entidades.Docente;
 
 public class DaoAsignatura {
-/*********************************** METODO MOSTRAR ASIGNATURAS  [JOSE]***********************************/
+/*********************************** METODO MOSTRAR ASIGNATURAS  [ALEJANDRO]***********************************/
 	public ArrayList<Asignatura> mostrarAsignaturas() throws SQLException,Exception {
 		ArrayList<Asignatura> listaAsignaturas = new ArrayList<Asignatura>();
 		

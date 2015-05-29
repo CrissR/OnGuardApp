@@ -93,7 +93,7 @@ public class DaoFaltas {
 		
 		}
 	}
-/*********************** METODO MOSTRAR FALTAS [ JOSE ]***********************************/
+/*********************** METODO MOSTRAR FALTAS [ ALEJANDRO ]***********************************/
 	
 	public ArrayList<Faltas> mostrarFaltas() throws SQLException,Exception {
 		ArrayList<Faltas> listaFaltas = new ArrayList<Faltas>();

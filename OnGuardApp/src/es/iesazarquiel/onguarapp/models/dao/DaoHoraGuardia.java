@@ -12,7 +12,7 @@ import es.iesazarquiel.onguarapp.models.conexiones.Conexion;
 import es.iesazarquiel.onguarapp.models.entidades.HoraGuardia;
 
 public class DaoHoraGuardia {
-/************************METODO PARA LISTAR HORAS_GUARDIA [  JOSE  ]**********************************/
+/************************METODO PARA LISTAR HORAS_GUARDIA [  ALEJANDRO  ]**********************************/
 	public ArrayList<HoraGuardia> mostrarHorasGuardia() throws SQLException,Exception {
 		ArrayList<HoraGuardia> listaHorasGuardia = new ArrayList<HoraGuardia>();
 		

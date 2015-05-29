@@ -230,7 +230,7 @@ public ArrayList<String> verGuardiasProf (String codProf, Date fechaIni, Date fe
 		
 	}
 /*********************** METODO PARA EL INFORME DE FALTAS [ JOSE ]***********************************/
-	/** 
+	/*
 	 * M�todo al que se le pasa una fecha y devuelve un arrayList con las 6 horas, y dentro de 
 	 * cada hora, el profe que ha cubierto esa falta y el c�digo de aula. JOSE.
 	 * @throws SQLException 

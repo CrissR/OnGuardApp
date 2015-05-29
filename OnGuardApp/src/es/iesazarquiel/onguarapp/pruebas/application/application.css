@@ -1,0 +1,9 @@
+
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+* {
+	-fx-padding: 4px;
+	-fx-spacing: 2px;
+	-fx-alignment: center;
+	-fx-text-alignment:center;
+}

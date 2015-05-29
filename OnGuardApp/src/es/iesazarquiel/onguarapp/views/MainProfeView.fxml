@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iesazarquiel.onguarapp.controllers.MainProfeViewController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="900.0">
+         <children>
+            <ImageView fitHeight="8.0" fitWidth="750.0" layoutX="150.0" layoutY="592.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/sh.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/usup.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/membretep.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="450.0" layoutX="150.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/separador.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="450.0" layoutX="892.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/separador.jpg" />
+               </image>
+            </ImageView>
+            <Accordion fx:id="menu" layoutY="300.0" prefHeight="302.0" prefWidth="150.0">
+              <panes>
+                <TitledPane fx:id="horarios" animated="false" text="Horarios">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="verHorarios" layoutX="-4.0" layoutY="1.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="156.0" text="Ver mi horario" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane fx:id="faltas" animated="false" text="Faltas">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="comunicarFalta" layoutX="-2.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="152.0" text="Comunicar falta" />
+                              <Button fx:id="verFaltas" layoutX="-2.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" text="Ver mis faltas" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane fx:id="guardias" animated="false" text="Guardias">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="firmarGuardia" layoutX="-2.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="156.0" text="Firmar guardia" />
+                              <Button fx:id="verGuardias" layoutX="-2.0" layoutY="30.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="156.0" text="Ver mis guardias" />
+                           </children></AnchorPane>
+                  </content>
+                </TitledPane>
+                  <TitledPane fx:id="informes" animated="false" text="Informes">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="informeGuadias" layoutX="-2.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="156.0" text="Guardias" />
+                              <Button fx:id="informeFaltas" layoutX="-5.0" layoutY="29.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="156.0" text="Faltas" />
+                           </children></AnchorPane>
+                    </content>
+                  </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

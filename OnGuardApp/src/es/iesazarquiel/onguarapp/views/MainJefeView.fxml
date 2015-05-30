@@ -66,7 +66,7 @@
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
                               <Button fx:id="informeGuadias" layoutX="-2.0" layoutY="-1.0" mnemonicParsing="false" onAction="#botonGenerarInformeGuardias" prefHeight="26.0" prefWidth="156.0" text="Guardias" />
-                              <Button fx:id="informeFaltas" layoutX="-5.0" layoutY="25.0" mnemonicParsing="false" onAction="#botonGenerarInformeGuardias" prefHeight="26.0" prefWidth="156.0" text="Faltas" />
+                              <Button fx:id="informeFaltas" layoutX="-5.0" layoutY="25.0" mnemonicParsing="false" onAction="#botonGenerarInformeFaltas" prefHeight="26.0" prefWidth="156.0" text="Faltas" />
                            </children></AnchorPane>
                     </content>
                   </TitledPane>
@@ -85,12 +85,18 @@
             </Pane>
             <TableView id="resultados" fx:id="tablaResultados" layoutX="158.0" layoutY="300.0" prefHeight="302.0" prefWidth="736.0">
               <columns>
-                <TableColumn id="c1" fx:id="columna1" prefWidth="114.0" text="C1" />
+                <TableColumn id="c1" fx:id="columna1" prefWidth="114.0" text="C1"/>
+     
                   <TableColumn id="c2" fx:id="columna2" prefWidth="121.0" text="C2" />
+         
                   <TableColumn id="c3" fx:id="columna3" prefWidth="111.0" text="C3" />
+    
                   <TableColumn id="c4" fx:id="columna4" prefWidth="134.0" text="C4" />
-                  <TableColumn id="c5" fx:id="columna5" prefWidth="122.0" text="C5" />
-                  <TableColumn id="c6" fx:id="columna6" prefWidth="120.0" text="C6" />
+        
+                  <TableColumn id="c5" fx:id="columna5" prefWidth="122.0" text="C5"  />
+         
+                  <TableColumn id="c6" fx:id="columna6" prefWidth="120.0" text="C6"  />
+            
               </columns>
             </TableView>
          </children>

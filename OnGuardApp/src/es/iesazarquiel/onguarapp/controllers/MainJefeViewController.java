@@ -433,7 +433,7 @@ public class MainJefeViewController {
     	
     	else if (activarGenerarInformeFaltas) {
     		
-    		/*Metodo de Jose*/
+    		/*Metodo de Jose*/  /*NO FUNCIONA POR AHORA*/
     		
     		columna1.setText("HORA");
     		columna2.setText("B-301");

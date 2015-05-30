@@ -11,7 +11,7 @@ import es.iesazarquiel.onguarapp.models.entidades.HoraClase;
 
 public class DaoHoraClase {
 
-/*******************METODO PARA LISTAR EL HORARIO [ JOSE ]**********************************/
+/*******************METODO PARA LISTAR EL HORARIO [ ALEJANDRO ]**********************************/
 public ArrayList<HoraClase> mostrarHorasClase() throws SQLException,Exception {
 		
 		ArrayList<HoraClase> listaHoras = new ArrayList<HoraClase>();
